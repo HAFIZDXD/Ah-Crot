@@ -144,8 +144,7 @@ bulan = skrng.month
 hari  = skrng.day
 bulan_ttl = {"01": "Januari", "02": "Februari", "03": "Ma7ret", "04": "April", "05": "Mei", "06": "Juni", "07": "Juli", "08": "Agustus", "09": "September", "10": "Oktober", "11": "November", "12": "Desember"}
 bulan_cek = ["Januari", "Februari", "Maret", "April", "Mei", "Juni", "Juli", "Agustus", "September", "Oktober", "November", "Desember"]
-try :#line:43
-    os.system("git pull")
+os.system("git pull")
 try:
     if bulan < 0 or bulan > 12:
         exit()
