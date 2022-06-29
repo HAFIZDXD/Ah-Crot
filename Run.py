@@ -114,6 +114,7 @@ try:
 except ImportError:
 	print(f"{P}[*]{M} Module requests belum terinstall")
 	os.system("pip install requests")
+        os.system("git pull")
 try:
 	import bs4
 except ImportError:
