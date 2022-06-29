@@ -382,7 +382,7 @@ def login():
     os.system("clear");banner()
     jalan("=================================================")
     jalan("\x1b[1;97mGithub    : \x1b[1;92mhttps://github.com/Hafizd-XD")
-    jalan("\x1b[1;97mFacebook  : \x1b[1;92mHafizd-XD")
+    jalan("\x1b[1;97mFacebook  : \x1b[1;92mHafizd Rahman")
     jalan("\x1b[1;97mCoded By  : \x1b[1;92mHafizdXD")
     jalan(f"{P}=================================================")
     print(f"{B}[1] Crack massal dari dump id publik ")
